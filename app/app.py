@@ -1,6 +1,7 @@
 from multiprocessing.dummy import Pool as ThreadPool 
 from bs4 import BeautifulSoup
 from os import walk
+import pandas as pd
 
 pool = ThreadPool(20)
 
