@@ -4,6 +4,6 @@ COPY app /app
 
 WORKDIR /app 
 
-RUN pip install beautifulsoup4 pd
+RUN pip install beautifulsoup4 pandas
 
 CMD [ "python", "app.py" ]
