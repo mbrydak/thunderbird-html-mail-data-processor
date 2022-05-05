@@ -1,4 +1,4 @@
-FROM python:alpine3.15
+FROM python:3.7-slim
 
 COPY app /app
 
